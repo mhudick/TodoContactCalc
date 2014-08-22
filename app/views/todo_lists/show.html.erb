@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @todo_list.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @todo_list.description %>
+</p>
+
+<p>
+  <strong>First value:</strong>
+  <%= @todo_list.first_value %>
+</p>
+
+<p>
+  <strong>Second value:</strong>
+  <%= @todo_list.second_value %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @todo_list.total %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @todo_list.address %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @todo_list.phone_number %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @todo_list.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @todo_list.last_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
+<%= link_to 'Back', todo_lists_path %>
