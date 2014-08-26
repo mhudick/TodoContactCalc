@@ -1,1 +1,1 @@
-json.extract! @todo_list, :id, :title, :description, :text, :first_value, :double, :second_value, :double, :total, :double, :address, :text, :phone_number, :string, :first_name, :string, :last_name, :string, :created_at, :updated_at
+json.extract! @todo_list, :id, :title, :description, :first_value, :second_value, :total,:address,:phone_number, :first_name,:last_name, :created_at, :updated_at
