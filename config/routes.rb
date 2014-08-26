@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :mike_hudick_samples
+
   resources :todo_lists
 
   root 'todo_lists#index'\

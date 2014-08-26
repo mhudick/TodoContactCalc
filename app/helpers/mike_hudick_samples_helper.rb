@@ -1,0 +1,2 @@
+module MikeHudickSamplesHelper
+end
